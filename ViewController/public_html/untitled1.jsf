@@ -35,7 +35,7 @@
                     </af:inputText>
                 </af:column>
                 <af:column sortProperty="#{bindings.DepartmentsVO1.hints.ManagerId.name}" sortable="true"
-                           headerText="#{bindings.DepartmentsVO1.hints.ManagerId.label}" id="c3">
+                           headerText="Manager Id" id="c3">
                     <af:inputText value="#{row.bindings.ManagerId.inputValue}"
                                   label="#{bindings.DepartmentsVO1.hints.ManagerId.label}"
                                   required="#{bindings.DepartmentsVO1.hints.ManagerId.mandatory}"
